@@ -5,4 +5,4 @@ extends:
 pre-push:
   commands:
     build:
-      run: bun --cwd backend run build && bun --cwd frontend run build
+      run: bun run build
