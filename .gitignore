@@ -1,0 +1,17 @@
+# deps
+node_modules/
+
+# generated / output
+target/
+.next/
+.vercel/
+next-env.d.ts
+*.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
+
+# envs
+.env*
+!.env.example

@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "node_modules/": true,
+    "bun.lock": true,
+    "backend/target/": true,
+    "frontend/.next/": true,
+    "frontend/next-env.d.ts": true
+  }
+}
