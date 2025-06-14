@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "echo 'TODO'",
+    "dev": "bun scripts.ts dev",
     "build": "cargo build --release",
     "start": "cargo run"
   }
