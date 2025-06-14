@@ -1,6 +1,6 @@
 pre-commit:
   commands:
-    lint:
+    lint-backend:
       files: git diff --name-only HEAD
       run: cargo clippy --fix --allow-dirty --allow-staged -- -Dwarnings
       stage_fixed: true

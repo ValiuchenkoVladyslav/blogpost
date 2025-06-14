@@ -1,7 +1,7 @@
 pre-commit:
   commands:
-    lint:
+    lint-frontend:
       glob: "*.{js,cjs,mjs,ts,tsx,json,jsonc}"
       run: bun biome check --write {staged_files}
-      root: frontend
       stage_fixed: true
+      root: frontend
