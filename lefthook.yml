@@ -1,0 +1,8 @@
+extends:
+  - ./frontend/lefthook.yml
+  - ./backend/lefthook.yml
+
+pre-push:
+  commands:
+    build:
+      run: bun --cwd backend run build && bun --cwd frontend run build
