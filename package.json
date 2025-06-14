@@ -6,7 +6,7 @@
   "workspaces": ["backend", "frontend"],
   "scripts": {
     "dev": "bun run --env-file=.env --filter='*' dev",
-    "build": "bun --cwd backend run build && bun --cwd frontend run build"
+    "build": "bun --cwd=backend run build && bun --cwd=frontend run build"
   },
   "devDependencies": {
     "lefthook": "^1.11.13"

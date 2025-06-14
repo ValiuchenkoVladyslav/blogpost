@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
 
-export default  {
+export default {
   /* config options here */
 } satisfies NextConfig;
